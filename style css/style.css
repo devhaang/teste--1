@@ -23,7 +23,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 105%;
   height: 100%;
   background: #5096F2;
   clip-path: circle(50% at bottom right);
@@ -90,4 +90,74 @@ header .navegation li a {
 .content .text h2 span {
   font-size: 3, 5em;
   color: #5096F2;
+}
+
+.content .text p {
+  color: #fff;
+}
+
+.content .text a {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 12px 28px;
+  background: #5096F2;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: 0.4s ease-in-out;
+}
+
+.content .text a:hover {
+  transform: translateY(10px);
+}
+
+.icons {
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons li {
+  list-style: none;
+}
+
+.icons li a {
+  display: inline-block;
+  margin-left: 45px;
+  background: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.icons li a:hover {
+  background: #5096F2;
+  transform: translateY(10px);
+}
+
+.icons li a img {
+  filter: invert(1);
+  transform: scale(0.5);
+}
+
+.boxImg {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+
+}
+
+.boxImg img {
+  width: 200px;
+  padding-bottom: 40px;
+  transform: scale(-10px);
 }
